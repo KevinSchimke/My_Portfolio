@@ -1,0 +1,11 @@
+<div class="container_startpage">
+    <div class="container_slideshow">
+      <img *ngIf="showImage" class="img_slideshow" src="assets/img/{{images[currentImage]}}">
+    </div>
+  
+    <div class="container_slideshow overlay_slideshow">
+      <p *ngIf="showImage" class="fade_in">
+        {{headlines[currentImage]}}
+      </p>
+    </div>
+  </div>
