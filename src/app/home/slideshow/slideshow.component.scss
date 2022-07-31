@@ -12,10 +12,8 @@
 
 .container_slideshow {
     height: 100vh;
-    width: 100vw;
     max-width: 100%;
     overflow: hidden;
-    top: 0;
 }
 
 .overlay_slideshow {
@@ -24,10 +22,11 @@
     top: 0;
     display: flex;
     align-items: center;
+    width: 100vw;
     p{
         font-size: 80px;
         color: white;
-        border-left: 8px solid #d85050;
+        border-left: 8px solid #126bfb;
         padding-left: 32px;
         max-width: 600px;
         margin-left: 120px;

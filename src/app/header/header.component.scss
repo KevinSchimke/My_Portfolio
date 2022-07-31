@@ -1,6 +1,6 @@
 header {
     position: fixed;
-    z-index: 1;
+    z-index: 999;
     left: 0;
     right: 0;
     top: 0;
@@ -8,8 +8,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 12vw;
+    padding-right: 12vw;
 
     img {
         height: 50px;

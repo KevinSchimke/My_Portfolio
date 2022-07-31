@@ -1,3 +1,6 @@
-// .home_container {
-//     background-color: #5b5963;
-// }
+.home_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #545454;
+}

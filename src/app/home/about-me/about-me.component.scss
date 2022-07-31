@@ -1,14 +1,11 @@
-.component {
-    display: flex;
-    justify-content: center;
-}
-
 .container_aboutme {
     display: flex;
+    // justify-content: space-around;
     border: 0.5px solid rgba($color: #ffffff, $alpha: 0.15);
     box-shadow: 0px 0px 15px rgba($color: #ffffff, $alpha: 0.5);
     margin-top: 32px;
     margin-bottom: 32px;
+    width: calc(100vw - 24vw);
 }
 
 .conatiner_image {
@@ -33,17 +30,21 @@
     clip-path: polygon(0 0,40% 0,100% 100%,0 100%);
     background-color: #126bfb;
     height: 100%;
-    width: 100%;
+    width: 400px;
     z-index: 0;
     position: absolute;
     top: 0;
     left: 0;
 }
 
-.container_text {
+.container_text_main {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    align-items: center;
+    width: calc(76vw - 400px);
+}
+
+.container_text {
     padding: 25px;
 
     h1{
@@ -63,13 +64,15 @@
     }
     button{
         font-size: 20px;
+        width: 100%;
         color: #126bfb;
         border: 2px solid #126bfb;
         background-color: transparent;
         padding: 8px;
 
         &:hover {
-            border-color: rgba(18, 107, 251, 0.5);
+            border-color: #7bb9fa;
+            color: #7bb9fa;
             cursor: pointer;
         }
     }
