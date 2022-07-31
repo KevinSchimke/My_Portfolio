@@ -1,0 +1,76 @@
+.component {
+    display: flex;
+    justify-content: center;
+}
+
+.container_aboutme {
+    display: flex;
+    border: 0.5px solid rgba($color: #ffffff, $alpha: 0.15);
+    box-shadow: 0px 0px 15px rgba($color: #ffffff, $alpha: 0.5);
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.conatiner_image {
+    position: relative;
+    height: 350px;
+    width: 350px;
+    padding: 25px;
+}
+
+.image {
+    border-radius: 100%;
+    background-image: url("./../../../assets/img/profile_pic_1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 350px;
+    z-index: 1;
+    position: absolute;
+}
+
+.polygon {
+    clip-path: polygon(0 0,40% 0,100% 100%,0 100%);
+    background-color: #126bfb;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container_text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px;
+
+    h1{
+        font-size: 55px;
+        margin: 0;
+        color: white;
+    }
+
+    h2{
+        font-size: 30px;
+        margin: 0;
+        color: #126bfb;
+    }
+    h3{
+        font-size: 20px;
+        color: white;
+    }
+    button{
+        font-size: 20px;
+        color: #126bfb;
+        border: 2px solid #126bfb;
+        background-color: transparent;
+        padding: 8px;
+
+        &:hover {
+            border-color: rgba(18, 107, 251, 0.5);
+            cursor: pointer;
+        }
+    }
+}
