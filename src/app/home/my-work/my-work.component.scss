@@ -1,0 +1,50 @@
+h2 {
+    font-size: 30px;
+    margin: 0;
+    color: #ffff;
+    text-align: center;
+}
+
+.container_myWork {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 76vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container_section {
+    display: flex;
+
+    button {
+        font-size: 20px;
+        margin-left: 2px;
+        margin-right: 2px;
+        color: #126bfb;
+        border: 2px solid #126bfb;
+        background-color: transparent;
+        padding: 8px;
+
+        &:hover {
+            border-color: #7bb9fa;
+            color: #7bb9fa;
+            cursor: pointer;
+        }
+    }
+}
+
+.container_projects {
+    margin-top: 8px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    margin: 25px;
+    height: 300px;
+    width: 400px;
+    background-color: yellow;
+}

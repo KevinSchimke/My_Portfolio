@@ -10,6 +10,7 @@ import { DataProtectionComponent } from './data-protection/data-protection.compo
 import { HeaderComponent } from './header/header.component';
 import { AboutMeComponent } from './home/about-me/about-me.component';
 import { MySkillsComponent } from './home/my-skills/my-skills.component';
+import { MyWorkComponent } from './home/my-work/my-work.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MySkillsComponent } from './home/my-skills/my-skills.component';
     DataProtectionComponent,
     HeaderComponent,
     AboutMeComponent,
-    MySkillsComponent
+    MySkillsComponent,
+    MyWorkComponent
   ],
   imports: [
     BrowserModule,
