@@ -1,0 +1,18 @@
+<div class="about_me_container">
+    <div class="about_me">
+        <img src="./../../../assets/img/profile-pic2-small.jpg">
+        <div class="container_text">
+            <h2>Über Mich</h2>
+            <span>"Ich bin ein Familien-Mensch mit der Leidenschaft zu Programmieren.<br> Ich liebe es an Herausforderungen zu wachsen."</span>
+        </div>
+    </div>
+
+    <div class="my_steps">
+        <div *ngFor="let step of steps" class="step">
+            <img src="{{ step.img}}">
+            <span>{{step.title}}</span>
+            <span>{{step.description}}</span>
+        </div>
+    </div>
+
+</div>
