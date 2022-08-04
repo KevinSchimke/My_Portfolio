@@ -12,6 +12,7 @@ import { AboutMeComponent } from './home/about-me/about-me.component';
 import { MySkillsComponent } from './home/my-skills/my-skills.component';
 import { MyWorkComponent } from './home/my-work/my-work.component';
 import { AboutMeInfosComponent } from './home/about-me-infos/about-me-infos.component';
+import { ContactComponent } from './home/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { AboutMeInfosComponent } from './home/about-me-infos/about-me-infos.comp
     AboutMeComponent,
     MySkillsComponent,
     MyWorkComponent,
-    AboutMeInfosComponent
+    AboutMeInfosComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
