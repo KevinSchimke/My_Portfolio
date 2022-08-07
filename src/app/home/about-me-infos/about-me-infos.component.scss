@@ -1,6 +1,14 @@
+h2 {
+    font-size: 30px;
+    margin: 0;
+    color: #ffff;
+    text-align: center;
+}
+
 .about_me {
     display: flex;
     justify-content: center;
+    text-align: center;
     img{
         height: 350px;
         width: 250px;
@@ -17,6 +25,7 @@
     display: flex;
     border-top: 5px solid #126bfb;
     margin-top: 32px;
+    margin-bottom: 32px;
 }
 .step{
     display: flex;
