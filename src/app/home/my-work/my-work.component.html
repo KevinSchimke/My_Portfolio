@@ -2,22 +2,18 @@
 
 <div class="container_myWork">
     <div class="container_section">
-        <button>Alle</button>
-        <button>Angular</button>
-        <button>Java Script</button>
+        <button [class.active_btn]="active_btn==='all'" (click)="filterProjects('all')">Alle</button>
+        <button [class.active_btn]="active_btn==='angular'" (click)="filterProjects('angular')">Angular</button>
+        <button [class.active_btn]="active_btn==='javaScript'" (click)="filterProjects('javaScript')">JavaScript</button>
     </div>
     <div class="container_projects">
-        <div class="project">
-            <img src="./../../../assets/img/project_dummy.jpg">
+        <div class="project"  *ngFor="let project of filtered_projects">
+            <img src="{{project.img}}">
             <div class="project_overview">
-                <p>JOIN<br>A simple Task Manager</p>
-                <button onclick="window.open('https://join.kevin-schimke.de/board.html','_blank')">Try out</button>
+                <p>{{project.name}}<br>{{project.description}}</p>
+                <a href="{{project.url}}" target="_blank"><button>Try out</button></a>
             </div>
         </div>
-        <div class="project">
-            <img src="./../../../assets/img/project_dummy.jpg">
-        </div>
-
     </div>
 
 </div>
