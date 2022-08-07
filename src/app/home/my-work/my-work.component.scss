@@ -42,7 +42,7 @@ button {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 1000px;
+    width: calc(100vw - 24vw);
 }
 
 .project {

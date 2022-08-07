@@ -1,14 +1,16 @@
 h2 {
     font-size: 30px;
     margin: 0;
-    color: #ffff;
+    color: white;
     text-align: center;
 }
 
 .about_me {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
     text-align: center;
+    color: white;
     img{
         height: 350px;
         width: 250px;
@@ -23,6 +25,9 @@ h2 {
 
 .my_steps{
     display: flex;
+    justify-content: space-between;
+    color: white;
+    width: calc(100vw - 24vw);
     border-top: 5px solid #126bfb;
     margin-top: 32px;
     margin-bottom: 32px;
@@ -31,13 +36,14 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 300px;
-    margin-top: 32px;
+    max-width: 275px;
+    margin: 32px 10px;
     img{
         border-radius: 100%;
         object-fit: cover;
         background-color: #126bfb;
-        padding: 12px;
+        padding: 15px;
+        height: 44px;
     }
     span{
         text-align: center;
