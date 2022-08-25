@@ -1,5 +1,5 @@
-<app-header [darkMode]="router.url != '/'"></app-header>
-<div [class.container]="router.url != '/'">
+<app-header [darkMode]="router.url == '/imprint'"></app-header>
+<div>
     <router-outlet></router-outlet>
 </div>
-<app-footer [darkMode]="router.url != '/'"></app-footer>
+<app-footer [imprint]="router.url == '/imprint'"></app-footer>

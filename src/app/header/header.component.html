@@ -1,12 +1,12 @@
-<header [class.headerDark]="darkMode">
+<header [class.headerDark]="darkMode" class="testheader">
     <img *ngIf="darkMode" routerLink="/" src="assets/img/logo_white.png">
     <img *ngIf="!darkMode" routerLink="/" src="assets/img/logo_dark.png">
 
     <div [class.darkLinks]="darkMode">
-        <a routerLink="/">Start</a>
-        <a href="#test">Fähigkeiten</a>
-        <a href="#">Projekte</a>
-        <a href="#">Über mich</a>
-        <a href="#">Kontakt</a>
+        <a href="#">Start</a>
+        <a href="#my_skills">Fähigkeiten</a>
+        <a href="#my_work">Projekte</a>
+        <a href="#about_me">Über mich</a>
+        <a href="#contact">Kontakt</a>
     </div>
 </header>
